@@ -1,0 +1,112 @@
+.parent {
+    position: relative;
+    top: -80px;
+    left: 0;
+    
+  }
+  .sunShadow {
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    transform: translatex(20px);
+	animation: float-right-left 5s ease-in-out infinite;
+  }
+  .sun {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    transform: translatex(0px);
+	animation: float-right-left 5s ease-in-out infinite;
+  }
+
+@keyframes float-up-down {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes float-right-left {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-20px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
+.rocketCloud {
+    position: absolute;
+    top:150px;
+    left:200px;
+	
+}
+.rocket{
+    min-width: 100px;
+    max-width: 150px;
+    position: absolute;
+    left:40px;
+    top:0px;
+    display: block;
+    transform: translatey(0px);
+	animation: float-up-down 6s ease-in-out infinite;
+}
+
+.cloud{
+    min-width: 200px;
+    max-width: 500px;
+    position: absolute;
+    top:210px;
+    right: -380px;
+    transform: translatey(0px);
+	animation: float-up-down 6s ease-in-out infinite;
+}
+
+.cloud2{
+    min-width: 200px;
+    max-width: 500px;
+    position: absolute;
+    top:260px;
+    right: -380px;
+    transform: translatey(40px);
+	animation: float-up-down 3s ease-in-out infinite;
+}
+.cloud3{
+    min-width: 200px;
+    max-width: 650px;
+    position: absolute;
+    top:-30px;
+    right: -450px;;
+    transform: translatex(0px);
+	animation: float-right-left 5s ease-in-out infinite;
+}
+.rocketBackPart{
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 0px;
+    max-height: 200px;;
+    position: absolute;
+    top:-50px;
+    left: 90px;
+    transform: translatey(40px);
+	animation: float-up-down 6s ease-in-out infinite;
+}
+.btn1{
+    position: absolute;
+    left:110px;
+    top:270px;
+    width: 350px;
+    padding: 10px 20px;
+    border: none;
+    color:white;
+    font-family:'Work Sans';
+    font-weight:900;
+    font-size:25px
+}
