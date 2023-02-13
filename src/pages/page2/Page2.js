@@ -14,7 +14,7 @@ const Page2 = () => {
                 }}
                 
                 transition={{ delay:1,duration:1 }}
-                
+                viewport={{ once: true }}
                 >
                 <div className='TrustedBy' style={{marginTop:"500px"}}>
                     <h1>TRUSTED BY</h1>
@@ -23,8 +23,8 @@ const Page2 = () => {
             </motion.div>
             <motion.div
                 initial={{opacity:0,y:-400}}
-                whileInView={{opacity:1,}}
-                transition={{delay:4, duration:2}}
+                whileInView={{opacity:1}}
+                transition={{delay:5, duration:2}}
                 viewport={{ once: true }}
             >
                 <h1>TRUSTED BY</h1>
