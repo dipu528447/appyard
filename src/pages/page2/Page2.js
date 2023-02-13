@@ -28,9 +28,9 @@ const Page2 = () => {
             </motion.div>
             <div>
                 <motion.div
-                    initial={{opacity:0,y:-300}}
-                    whileInView={{opacity:1,}}
-                    transition={{delay:5, duration:2}}
+                    initial={{opacity:0,y:0}}
+                    whileInView={{opacity:1, y:-300}}
+                    transition={{delay:6, duration:2}}
                     
                 >
                     <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 4 }} style={{width:"1000px", margin:"0px auto"}}>
