@@ -10,7 +10,7 @@ import imageIcon from '../../assets/Group 63.png'
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="static" style={{boxShadow:"none"}}>
+      <AppBar position="fixed" style={{boxShadow:"none"}}>
         <Toolbar sx={{width:"90%", mx:"auto"}}>
           <IconButton
             size="large"

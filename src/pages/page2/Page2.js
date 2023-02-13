@@ -12,7 +12,8 @@ const Page2 = () => {
                 whileInView={{
                     opacity:0,
                 }}
-                transition={{ delay:2,duration:1 }}
+                
+                transition={{ delay:1,duration:1 }}
                 >
                 <div className='TrustedBy' style={{marginTop:"500px"}}>
                     <h1>TRUSTED BY</h1>
@@ -22,7 +23,7 @@ const Page2 = () => {
             <motion.div
                 initial={{opacity:0,y:-400}}
                 whileInView={{opacity:1,}}
-                transition={{delay:5, duration:2}}
+                transition={{delay:4, duration:2}}
             >
                 <h1>TRUSTED BY</h1>
             </motion.div>
@@ -30,7 +31,7 @@ const Page2 = () => {
                 <motion.div
                     initial={{opacity:0,y:0}}
                     whileInView={{opacity:1, y:-300}}
-                    transition={{delay:6, duration:2}}
+                    transition={{delay:5, duration:2}}
                     
                 >
                     <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 4 }} style={{width:"1000px", margin:"0px auto"}}>
@@ -76,6 +77,7 @@ const Page2 = () => {
                         </Grid>
                        
                     </Grid>
+                    
                 </motion.div>
             </div>
         </div>

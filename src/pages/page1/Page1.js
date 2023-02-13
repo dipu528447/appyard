@@ -15,6 +15,7 @@ import sun from '../../assets/Vector-3.png'
 import bg from '../../assets/bg.png'
 import './Page1.css'
 import Page2 from '../page2/Page2';
+import Page3 from '../page3/Page3';
 const Page1 = () => {
     const [loadingTime,setLoadingTime]=useState(0)
     
@@ -83,9 +84,10 @@ const Page1 = () => {
                 <div>            
                     <Page2/>
                 </div>
+                <div>            
+                    <Page3/>
+                </div>
             </motion.div>
-            
-            
         </div>
     );
 };
