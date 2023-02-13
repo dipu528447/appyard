@@ -18,7 +18,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline/>
       <div className="App" >
-        <Paper style={{height:"720px"}} >
+        <Paper style={{height:"100vh"}} >
             <Page1/>
             
         </Paper>

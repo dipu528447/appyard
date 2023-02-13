@@ -6,7 +6,7 @@ import trustedByImage from '../../assets/trustedBy.png'
 const Page2 = () => {
     
     return (
-        <div >
+        <div style={{height:"100vh"}}>
             <motion.div
                 initial={{opacity:1}}
                 whileInView={{
