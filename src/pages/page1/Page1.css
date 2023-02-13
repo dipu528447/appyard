@@ -1,3 +1,8 @@
+.main{
+    background-image: url('../../assets/back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .parent {
     position: relative;
     top: -80px;
