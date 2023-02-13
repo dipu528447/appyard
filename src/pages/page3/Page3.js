@@ -6,7 +6,7 @@ import CostEffective from '../../assets/CostEffective.png'
 import { Grid } from '@mui/material';
 const Page3 = () => {
     return (
-        <div>
+        <div style={{height:"100vh"}}>
             <motion.div
                 initial={{opacity:0}}
                 whileInView={{opacity:1,y:-200}}

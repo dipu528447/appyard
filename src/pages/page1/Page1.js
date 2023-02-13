@@ -26,7 +26,7 @@ const Page1 = () => {
         setLoadingTime(loadingTime)
     };
     return (
-        <div className='main'>
+        <div className='main' style={{height:"100vh"}}>
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
@@ -81,12 +81,7 @@ const Page1 = () => {
                 </Box>
                 <br/>
                 <br/>
-                <div>            
-                    <Page2/>
-                </div>
-                <div>            
-                    <Page3/>
-                </div>
+               
             </motion.div>
         </div>
     );

@@ -6,8 +6,8 @@ import trustedByImage from '../../assets/trustedBy.png'
 const Page2 = () => {
     
     return (
-        <div style={{height:"100vh", marginTop:"30px"}}>
-            <motion.div
+        <div style={{height:"100vh"}}>
+            {/* <motion.div
                 initial={{opacity:1}}
                 whileInView={{
                     opacity:0,
@@ -19,10 +19,10 @@ const Page2 = () => {
                 <div className='TrustedBy' style={{marginTop:"500px"}}>
                     <h1>TRUSTED BY</h1>
                 </div>                    
-            </motion.div>
+            </motion.div> */}
             <motion.div
-                initial={{opacity:0,y:-400}}
-                whileInView={{opacity:1}}
+                initial={{opacity:0}}
+                whileInView={{opacity:1,y:-400}}
                 transition={{delay:5, duration:2}}
                 viewport={{ once: true }}
             >
@@ -30,7 +30,7 @@ const Page2 = () => {
             </motion.div>
             <div>
                 <motion.div
-                    initial={{opacity:0,y:0}}
+                    initial={{opacity:0}}
                     whileInView={{opacity:1, y:-300}}
                     transition={{delay:5, duration:2}}
                     viewport={{ once: true }}
