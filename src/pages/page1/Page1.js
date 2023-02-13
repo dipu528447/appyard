@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import imageIcon from '../assets/Group 63.png'
-import LinearDeterminate from '../Components/ProgressBar/ProgressBar';
+import imageIcon from '../../assets/Group 63.png'
+import LinearDeterminate from '../../Components/ProgressBar/ProgressBar';
 import { easeOut, motion } from "framer-motion"
-import NavBar from '../Components/NavBar/NavBar';
+import NavBar from '../../Components/NavBar/NavBar';
 import { Button, Typography } from '@mui/material';
 import { Box, display } from '@mui/system';
-import rocketBackPart from '../assets/Vector-5.png'
-import rocket from '../assets/Group 104.png'
-import cloud1 from '../assets/Vector-1.png'
-import cloud2 from '../assets/Vector.png'
-import cloud3 from '../assets/Vector-2.png'
-import sunShadow from '../assets/Vector-4.png'
-import sun from '../assets/Vector-3.png'
-import bg from '../assets/bg.png'
+import rocketBackPart from '../../assets/Vector-5.png'
+import rocket from '../../assets/Group 104.png'
+import cloud1 from '../../assets/Vector-1.png'
+import cloud2 from '../../assets/Vector.png'
+import cloud3 from '../../assets/Vector-2.png'
+import sunShadow from '../../assets/Vector-4.png'
+import sun from '../../assets/Vector-3.png'
+import bg from '../../assets/bg.png'
 import './Page1.css'
+import Page2 from '../page2/Page2';
 const Page1 = () => {
     const [loadingTime,setLoadingTime]=useState(0)
     
@@ -24,7 +25,7 @@ const Page1 = () => {
         setLoadingTime(loadingTime)
     };
     return (
-        <div className='main' style={{height:"715px"}}>
+        <div className='main'>
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
@@ -60,28 +61,30 @@ const Page1 = () => {
                     </div>
                     <div style={{width:"50%"}}>
                         
-                            <div className='parent'>
-                                <img src={bg} width={'500px'}/>
-                                <div className='sunSection'>
-                                    <img src={sunShadow} className="sunShadow"/>
-                                    <img src={sun} className="sun"/>
-                                </div>
-                                <div className='rocketCloud'>
-                                    <img src={rocketBackPart} className="rocketBackPart" />
-                                    
-                                    <img src={cloud1} className="cloud"/>
-                                    <img src={rocket} className="rocket" />
-                                    <img src={cloud2} className="cloud2"/>
-                                    <img src={cloud3} className="cloud3"/>
-                                    
-                                </div>
-                                
+                        <div className='parent'>
+                            <img src={bg} width={'500px'}/>
+                            <div className='sunSection'>
+                                <img src={sunShadow} className="sunShadow"/>
+                                <img src={sun} className="sun"/>
                             </div>
-                        
+                            <div className='rocketCloud'>
+                                <img src={rocketBackPart} className="rocketBackPart" />                                  
+                                <img src={cloud1} className="cloud"/>
+                                <img src={rocket} className="rocket" />
+                                <img src={cloud2} className="cloud2"/>
+                                <img src={cloud3} className="cloud3"/>
+                            </div>                      
+                        </div>
                     </div>
                     
                 </Box>
+                <br/>
+                <br/>
+                <div>            
+                    <Page2/>
+                </div>
             </motion.div>
+            
             
         </div>
     );

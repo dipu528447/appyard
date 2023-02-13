@@ -1,9 +1,8 @@
 import './App.css';
-import Page1 from './pages/Page1';
+import Page1 from './pages/page1/Page1';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, rgbToHex, ThemeProvider } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import image from './assets/background.png'
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -19,8 +18,9 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline/>
       <div className="App" >
-        <Paper>
+        <Paper style={{height:"720px"}} >
             <Page1/>
+            
         </Paper>
       </div>
     </ThemeProvider>   
