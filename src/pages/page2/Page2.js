@@ -12,8 +12,9 @@ const Page2 = () => {
                 whileInView={{
                     opacity:0,
                 }}
-                viewport={{ once: true }}
+                
                 transition={{ delay:1,duration:1 }}
+                viewport={{ once: true }}
                 >
                 <div className='TrustedBy' style={{marginTop:"500px"}}>
                     <h1>TRUSTED BY</h1>
