@@ -6,10 +6,10 @@ import CostEffective from '../../assets/CostEffective.png'
 import { Grid } from '@mui/material';
 const Page3 = () => {
     return (
-        <div style={{height:"100vh"}}>
+        <div className="page2Main" style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
             <motion.div
                 initial={{opacity:0}}
-                whileInView={{opacity:1,y:-200}}
+                whileInView={{opacity:1}}
                 transition={{delay:1, duration:2}}
                 viewport={{ once: true }}
             >
@@ -17,7 +17,7 @@ const Page3 = () => {
             </motion.div>
             <motion.div
                 initial={{opacity:0}}
-                whileInView={{opacity:1,y:-150}}
+                whileInView={{opacity:1}}
                 transition={{delay:2, duration:2}}
                 viewport={{ once: true }}
             >

@@ -1,0 +1,6 @@
+.page2Main{
+    background-image: url('../../assets/back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
