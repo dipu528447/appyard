@@ -6,6 +6,8 @@ import Paper from '@mui/material/Paper';
 import Page3 from './pages/page3/Page3';
 import Page2 from './pages/page2/Page2';
 import Page4 from './pages/page4/Page4';
+import Page4_2 from './pages/page4.2/Page4_2';
+import Page4_3 from './pages/page4.3/Page4_3';
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -26,6 +28,8 @@ function App() {
             <Page2/>
             <Page3/>
             <Page4/>
+            <Page4_2/>
+            <Page4_3/>
         </Paper>
       </div>
     </ThemeProvider>   
