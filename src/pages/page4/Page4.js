@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from "framer-motion"
 import image1 from '../../assets/image.gif'
 import image3 from '../../assets/image10.png'
-import image4 from '../../assets/undraw.png'
-import image5 from '../../assets/goals.png'
+import image4 from '../../assets/undraw.gif'
+import image5 from '../../assets/goals.gif'
 import Grid from '@mui/material/Grid';
 import './page4.css'
 
@@ -12,7 +12,7 @@ const Page4 = () => {
     return (
 
 
-        <div className="page2Main" style={{height:"200vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column", top:"0px"}}>
+        <div className="page2Main" style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"flex-start", flexDirection:"column"}}>
 
             {/* first task start */}
             <motion.div
@@ -20,7 +20,7 @@ const Page4 = () => {
                 whileInView={{
                     opacity:0,
                 }}  
-                transition={{ delay:5, duration:3 }}
+                transition={{ delay:3, duration:3 }}
                 viewport={{once:true}}
                 >
                 
@@ -66,7 +66,7 @@ const Page4 = () => {
                       display: "none",
                     },
                 }}
-                transition={{ delay:11,duration:4}}
+                transition={{ delay:5,duration:4}}
                 viewport={{once:true}}
                 >
                     <div >
@@ -121,7 +121,7 @@ const Page4 = () => {
                 whileInView={{
                     opacity:1,
                 }}
-                transition={{ delay:20,duration:4}}
+                transition={{ delay:4,duration:1}}
                 viewport={{once:true}}
                 >
                     <div >

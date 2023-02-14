@@ -21,7 +21,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline/>
       <div className="App" >
-        <Paper style={{height:"100%"}} >
+        <Paper style={{height:"100%", display:"flex", flexDirection:"column"}} >
             <Page1/> 
             <Page2/>
             <Page3/>
