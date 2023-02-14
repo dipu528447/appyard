@@ -3,23 +3,23 @@ import { motion } from "framer-motion"
 import image1 from '../../assets/image.gif'
 import image3 from '../../assets/image10.png'
 import image4 from '../../assets/undraw.png'
+import image5 from '../../assets/goals.png'
 import Grid from '@mui/material/Grid';
 import './page4.css'
-import { duration } from '@mui/material';
+
 
 const Page4 = () => {
     return (
 
 
-        <div className="page2Main" style={{height:"250vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+        <div className="page2Main" style={{height:"200vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column", top:"0px"}}>
 
             {/* first task start */}
             <motion.div
                 initial={{opacity:1}}
                 whileInView={{
                     opacity:0,
-                }}
-                
+                }}  
                 transition={{ delay:5, duration:3 }}
                 viewport={{once:true}}
                 >
@@ -35,7 +35,12 @@ const Page4 = () => {
                 <motion.div
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
-                    transition={{delay:1, duration:0}}
+                    animate={{
+                        transitionEnd: {
+                          display: "none",
+                        },
+                    }}
+                    transition={{delay:1, duration:4}}
                     viewport={{ once: true }}
                 >
                     <p style={{fontFamily:'Inter',fontWeight:"700"}}>We have powerful and flexible tools in our arsenal to serve all kinds of business requirement</p>
@@ -52,11 +57,16 @@ const Page4 = () => {
 
             {/* second task start */}
             <motion.div
-                initial={{opacity:0,y:-500}}
+                initial={{opacity:0}}
                 whileInView={{
                     opacity:1,
                 }}
-                transition={{ delay:11,duration:1}}
+                animate={{
+                    transitionEnd: {
+                      display: "none",
+                    },
+                }}
+                transition={{ delay:11,duration:4}}
                 viewport={{once:true}}
                 >
                     <div >
@@ -106,7 +116,58 @@ const Page4 = () => {
             {/* second task end */}
 
             {/* Third task start */}
-            
+                <motion.div
+                initial={{opacity:0}}
+                whileInView={{
+                    opacity:1,
+                }}
+                transition={{ delay:20,duration:4}}
+                viewport={{once:true}}
+                >
+                    <div >
+                        <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>HOW <span style={{color:"#8AB6CB"}}>APPYARD</span> WORKS</h1>
+                    </div> 
+                    <Grid container columnSpacing={8} style={{width:"1200px"}}>
+                        <Grid item xs={6}>
+                            <div style={{display:"flex"}}>
+                                <div style={{margin:"30px 20px"}}>
+                                    <div className='circle'>4</div>
+                                </div>
+                                <div style={{textAlign:"left"}}>
+                                    <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>MAGIC</h1>
+                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>We pledge to <span style={{color:"#8AB6CB"}}> deliver your dream app</span> as soon as possible while keeping you posted about the <span style={{color:"#8AB6CB"}}>development process</span></h5>
+                                </div>
+                                
+                            </div>  
+                            <div style={{display:"flex", }}>
+                                <div style={{margin:"30px 20px"}}>
+                                    <div className='circle'>5</div>
+                                </div>
+                                <div style={{textAlign:"left"}}>
+                                    <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>LET’S GROW</h1>
+                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>We want to watch <span style={{color:"#8AB6CB"}}>you expand your business </span> and that’s why we are providing you <span style={{color:"#8AB6CB"}}>6 months of free maintenance</span> </h5>
+                                </div>
+                                
+                            </div>  
+                            <div style={{display:"flex", }}>
+                                <div style={{margin:"30px 20px"}}>
+                                    <div className='circle'>6</div>
+                                </div>
+                                <div style={{textAlign:"left"}}>
+                                    <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>THAT’S ALL</h1>
+                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>Your Project with <span style={{color:"#8AB6CB"}}>APPYARD</span> is successfully completed. <span style={{color:"#8AB6CB"}}>Congratulations!</span> </h5>
+                                </div>
+                                
+                            </div>  
+                        </Grid>
+                        
+                        <Grid item xs={6}>
+                            <div className='rightImage' style={{margin:"50px 0px"}}>
+                                <img src={image5} width="400px"/>
+                            </div>
+                        </Grid>
+                    </Grid>                
+                </motion.div>
             {/* third task end */}
         </div>
     );
