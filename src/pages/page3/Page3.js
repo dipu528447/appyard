@@ -10,7 +10,7 @@ const Page3 = () => {
             <motion.div
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
-                transition={{delay:1, duration:2}}
+                transition={{delay:1, duration:.6}}
                 viewport={{ once: true }}
             >
                 <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>WHY CHOOSE <span style={{color:"#8AB6CB"}}>APPYARD</span></h1>
@@ -18,7 +18,7 @@ const Page3 = () => {
             <motion.div
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
-                transition={{delay:2, duration:2}}
+                transition={{delay:2, duration:.6}}
                 viewport={{ once: true }}
             >
                 <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{width:"1200px", margin:"0px auto"}}>

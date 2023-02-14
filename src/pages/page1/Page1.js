@@ -30,7 +30,7 @@ const Page1 = () => {
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
-            transition={{delay:4, duration:1}}
+            transition={{delay:4, duration:.6}}
                 >
                 <NavBar ></NavBar>
             </motion.div>
@@ -40,7 +40,7 @@ const Page1 = () => {
                     opacity:0,
                     y:20
                 }}
-                transition={{ delay:2,duration:1 }}
+                transition={{ delay:2,duration:.6 }}
                 >
                 <img src={imageIcon} style={{width:"40%"}} onLoad={doneLoading}/>
                 <LinearDeterminate/>
@@ -48,7 +48,7 @@ const Page1 = () => {
             <motion.div
                 initial={{opacity:0,y:-400}}
                 animate={{opacity:1}}
-                transition={{delay:5, duration:1}}
+                transition={{delay:5, duration:.6}}
             >
                 <Box sx={{ display: 'flex', width:"85%", mx:"auto",justifyContent: 'space-between' }}>
                     <div>

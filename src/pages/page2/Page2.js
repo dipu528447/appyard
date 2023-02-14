@@ -7,23 +7,23 @@ const Page2 = () => {
     
     return (
         <div className='page2Main' style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
-            <motion.div
+            {/* <motion.div
                 initial={{opacity:1}}
                 whileInView={{
                     opacity:0,
                 }}
                 
-                transition={{ delay:1,duration:1 }}
+                transition={{ delay:.75,duration:1 }}
                 viewport={{once:true}}
                 >
                 <div className='TrustedBy' >
                     <h1>TRUSTED BY</h1>
                 </div>                    
-            </motion.div>
+            </motion.div> */}
             <motion.div
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
-                transition={{delay:5, duration:2}}
+                transition={{delay:1, duration:.6}}
                 viewport={{ once: true }}
             >
                 <h1>TRUSTED BY</h1>
@@ -32,7 +32,7 @@ const Page2 = () => {
                 <motion.div
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
-                    transition={{delay:5, duration:2}}
+                    transition={{delay:2, duration:.6}}
                     viewport={{ once: true }}
                 >
                     <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 4 }} style={{width:"1000px", margin:"0px auto"}}>

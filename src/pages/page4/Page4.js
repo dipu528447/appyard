@@ -20,14 +20,14 @@ const Page4 = () => {
                 whileInView={{
                     opacity:0,
                 }}  
-                transition={{ delay:3, duration:3 }}
+                transition={{ delay:3, duration:.6 }}
                 viewport={{once:true}}
                 >
                 
                 <motion.div
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
-                    transition={{delay:1, duration:0}}
+                    transition={{delay:1, duration:0.6}}
                     viewport={{ once: true }}
                 >
                     <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>HOW <span style={{color:"#8AB6CB"}}>APPYARD</span> WORKS</h1>
@@ -40,7 +40,7 @@ const Page4 = () => {
                           display: "none",
                         },
                     }}
-                    transition={{delay:1, duration:4}}
+                    transition={{delay:1, duration:.6}}
                     viewport={{ once: true }}
                 >
                     <p style={{fontFamily:'Inter',fontWeight:"700"}}>We have powerful and flexible tools in our arsenal to serve all kinds of business requirement</p>
@@ -66,7 +66,7 @@ const Page4 = () => {
                       display: "none",
                     },
                 }}
-                transition={{ delay:5,duration:4}}
+                transition={{ delay:5,duration:.6}}
                 viewport={{once:true}}
                 >
                     <div >
@@ -121,7 +121,7 @@ const Page4 = () => {
                 whileInView={{
                     opacity:1,
                 }}
-                transition={{ delay:4,duration:1}}
+                transition={{ delay:4,duration:.6}}
                 viewport={{once:true}}
                 >
                     <div >
