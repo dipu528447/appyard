@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion"
 import image1 from '../../assets/image.gif'
+import image3 from '../../assets/image10.png'
 const Page4 = () => {
     return (
         <div className="page2Main" style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
@@ -20,6 +21,9 @@ const Page4 = () => {
             >
                 <p style={{fontFamily:'Inter',fontWeight:"700"}}>We have powerful and flexible tools in our arsenal to serve all kinds of business requirement</p>
                 <img src={image1}/>
+                <br/>
+                <br/>
+                <img src={image3} width="50px"/>
             </motion.div>
         </div>
     );
