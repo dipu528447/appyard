@@ -25,7 +25,6 @@ const Page2 = () => {
                 whileInView={{opacity:1}}
                 transition={{delay:5, duration:2}}
                 viewport={{ once: true }}
-               
             >
                 <h1>TRUSTED BY</h1>
             </motion.div>

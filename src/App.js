@@ -5,6 +5,7 @@ import { createTheme, rgbToHex, ThemeProvider } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Page3 from './pages/page3/Page3';
 import Page2 from './pages/page2/Page2';
+import Page4 from './pages/page4/Page4';
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -21,13 +22,10 @@ function App() {
       <CssBaseline/>
       <div className="App" >
         <Paper style={{height:"100%"}} >
-            <Page1/>
-                     
-                <Page2/>
-           
-                      
-                <Page3/>
-           
+            <Page1/> 
+            <Page2/>
+            <Page3/>
+            <Page4/>
         </Paper>
       </div>
     </ThemeProvider>   
