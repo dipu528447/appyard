@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import './Navbar.css'
 import imageIcon from '../../assets/Group 63.png'
+import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
@@ -33,7 +34,7 @@ export default function NavBar() {
           <Typography variant="p" component="div" sx={{flexGrow:1}}>
             How it Works?
           </Typography>
-          <button  className='btnContactUs' >Contact us</button>
+          <Link to={"/contact"}><button  className='btnContactUs' >Contact us</button></Link>
         </Toolbar>
       </AppBar>
     </Box>
