@@ -16,12 +16,12 @@ const Page4_2 = () => {
                 //       display: "none",
                 //     },
                 // }}
-                transition={{ delay:0,duration:.6}}
+                transition={{ delay:0,duration:.3}}
                 viewport={{once:true}}
                 >
-                    <div >
+                    {/* <div >
                         <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>HOW <span style={{color:"#8AB6CB"}}>APPYARD</span> WORKS</h1>
-                    </div> 
+                    </div>  */}
                     <Grid container columnSpacing={8} style={{width:"1200px"}}>
                         <Grid item xs={6}>
                             <div style={{display:"flex"}}>

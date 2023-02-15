@@ -20,7 +20,7 @@ export default function NavBar() {
             aria-label="menu"
             sx={{ mr: 1 }}
           >
-          <img src={imageIcon} style={{width:"60px"}}/>
+          {/* <img src={imageIcon} style={{width:"60px"}}/> */}
           </IconButton>
           <Typography variant="p" component="div" id='menu1' sx={{flexGrow:1}}>
             Home

@@ -11,7 +11,7 @@ const Page5 = () => {
                 whileInView={{
                     opacity:1,
                 }}
-                transition={{ delay:0,duration:.6}}
+                transition={{ delay:0,duration:.3}}
                 viewport={{once:true}}
                 style={{width:"1200px"}}
                 >
@@ -26,7 +26,7 @@ const Page5 = () => {
                                 whileInView={{
                                     width:"360px"
                                 }}
-                                transition={{ delay:0,duration:.6}}
+                                transition={{ delay:0,duration:.3}}
                                 viewport={{once:true}}
                                 type="text" 
                                 style={{height: "50px",padding:"0px 10px",color: "black",fontSize: "20px",backgroundColor: "white",width:"350px" }} >

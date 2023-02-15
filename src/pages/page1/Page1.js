@@ -17,38 +17,45 @@ import './Page1.css'
 import Page2 from '../page2/Page2';
 import Page3 from '../page3/Page3';
 const Page1 = () => {
-    const [loadingTime,setLoadingTime]=useState(0)
-    
-    function doneLoading() {
-        var startTime = new Date().getTime();
-        var loadtime = new Date().getTime() - startTime;
-        console.log("image took " + loadtime + "ms to load");
-        setLoadingTime(loadingTime)
-    };
+
     return (
         <div className='main' style={{height:"100vh"}}>
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
-            transition={{delay:4, duration:.6}}
+            transition={{delay:4, duration:.3}}
                 >
                 <NavBar ></NavBar>
             </motion.div>
             <motion.div
-                initial={{opacity:1}}
+                initial={{opacity:1,marginTop:"50px"}}
                 animate={{
-                    opacity:0,
-                    y:20
+                    width:"200px",
+                    y:5,
+                    x:28,
+                    position:"fixed",
+                    marginTop:"0px"
                 }}
                 transition={{ delay:2,duration:.6 }}
                 >
-                <img src={imageIcon} style={{width:"40%"}} onLoad={doneLoading}/>
-                <LinearDeterminate/>
+                <img src={imageIcon} style={{width:"30%"}} />
+                
             </motion.div>
             <motion.div
-                initial={{opacity:0,y:-400}}
+                initial={{opacity:1}}
+                animate={{
+                    opacity:0
+                }}
+                transition={{ delay:1,duration:.6 }}
+                >
+                <LinearDeterminate/>
+                
+            </motion.div>
+            
+            <motion.div
+                initial={{opacity:0,y:140}}
                 animate={{opacity:1}}
-                transition={{delay:5, duration:.6}}
+                transition={{delay:5, duration:.3}}
             >
                 <Box sx={{ display: 'flex', width:"85%", mx:"auto",justifyContent: 'space-between' }}>
                     <div>
