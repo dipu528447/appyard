@@ -55,6 +55,33 @@ const Page6 = () => {
                             type="text" 
                             style={{height: "185px",border:"none",margin:"35px 0px",padding:"0px 10px",color: "black",fontSize: "20px",backgroundColor: "white",width:"360px",display:"block" }} >
                         </motion.textarea>
+                        <motion.div
+                            initial={{width:"0px"}}
+                            whileInView={{
+                                width:"35px"
+                            }}
+                            transition={{ delay:0,duration:.3}}
+                            viewport={{once:true}}
+                            style={{border:"2px solid #88B4C9",width:"35px",borderRadius:"20px",position:"absolute",right:"520px",top:"90px"}}
+                        />
+                        <motion.div
+                            initial={{width:"0px"}}
+                            whileInView={{
+                                width:"30px"
+                            }}
+                            transition={{ delay:0,duration:.3}}
+                            viewport={{once:true}}
+                            style={{border:"2px solid #88B4C9",width:"35px",borderRadius:"20px",position:"absolute",right:"525px",top:"104px"}}
+                        />
+                        <motion.div
+                            initial={{width:"0px"}}
+                            whileInView={{
+                                width:"25px"
+                            }}
+                            transition={{ delay:0,duration:.3}}
+                            viewport={{once:true}}
+                            style={{border:"2px solid #88B4C9",width:"35px",borderRadius:"20px",position:"absolute",right:"530px",top:"117px"}}
+                        />
                     </div>
 
                 </div>
