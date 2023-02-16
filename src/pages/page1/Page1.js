@@ -49,7 +49,6 @@ const Page1 = () => {
                 transition={{ delay:1,duration:.6 }}
                 >
                 <LinearDeterminate/>
-                
             </motion.div>
             
             <motion.div

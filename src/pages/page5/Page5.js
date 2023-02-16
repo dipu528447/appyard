@@ -20,7 +20,7 @@ const Page5 = () => {
                     <div style={{width:"500px"}}>
                         
                             <h1>Enter Your Customer ID</h1>
-                            <div class="slide-right">
+                            <div className="slide-right">
                                 <motion.input
                                 initial={{width:"0px"}}
                                 whileInView={{
