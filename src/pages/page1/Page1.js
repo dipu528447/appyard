@@ -31,12 +31,12 @@ const Page1 = () => {
                 initial={{opacity:1,marginTop:"50px"}}
                 animate={{
                     width:"200px",
-                    y:5,
+                    y:10,
                     x:28,
                     position:"fixed",
                     marginTop:"0px"
                 }}
-                transition={{ delay:2,duration:.3 }}
+                transition={{ delay:1.5,duration:.3 }}
                 >
                 <img src={imageIcon} style={{width:"30%"}} />
                 
@@ -47,7 +47,7 @@ const Page1 = () => {
                     opacity:0,
                     
                 }}
-                transition={{ delay:1,duration:.6 }}
+                transition={{ delay:1,duration:.5 }}
                 style={{marginTop:"100px"}}
                 >
                 <LinearDeterminate />
@@ -56,16 +56,16 @@ const Page1 = () => {
             <motion.div
                 initial={{opacity:0,y:140}}
                 animate={{opacity:1}}
-                transition={{delay:2, duration:.3}}
+                transition={{delay:3, duration:.3}}
             >
                 <Box sx={{ display: 'flex', width:"85%", mx:"auto",justifyContent: 'space-between' }}>
                     <div>
-                        <Typography variant="h3" component="div" style={{textAlign:"left",fontFamily:'Inter',fontWeight:"700"}}>WE LAUNCH YOUR <span style={{color:"#8AB6CB"}}>APPS</span> </Typography>
-                        <Typography variant="h3" component="div" style={{textAlign:"left",fontFamily:'Inter',fontWeight:"700"}}>FOR YOUR FASTLY AND </Typography>
-                        <Typography variant="h3" component="div" style={{textAlign:"left",fontFamily:'Inter',fontWeight:"700"}}>CHEAPLY </Typography>
+                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"48px"}}>WE LAUNCH YOUR <span style={{color:"#8AB6CB"}}>APPS</span> </Typography>
+                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"48px"}}>FOR YOUR FASTLY AND </Typography>
+                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"48px"}}>CHEAPLY </Typography>
                         <br/>
-                        <Typography variant="h6" component="div" style={{textAlign:"left",fontFamily:'Inter',fontWeight:"700"}}><span style={{color:"#8AB6CB"}}>100+</span> company's entrusted us to deliver </Typography>
-                        <Typography variant="h6" component="div" style={{textAlign:"left",fontFamily:'Inter',fontWeight:"700"}}>their dream product </Typography>
+                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"22px"}}><span style={{color:"#8AB6CB"}}>100+</span> company's entrusted us to deliver </Typography>
+                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"22px"}}>their dream product </Typography>
                         <button className='btn1' style={{ backgroundColor:"#406B80"}}>Get Started</button>
                     </div>
                     <div style={{width:"50%"}}>

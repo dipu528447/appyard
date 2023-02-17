@@ -3,24 +3,24 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import './Navbar.css'
 import imageIcon from '../../assets/Group 63.png'
+import './Navbar.css'
 import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="fixed" style={{boxShadow:"none"}}>
+      <AppBar position="fixed" style={{ "background-image": "linear-gradient(180deg,#000000,#252621)" }}>
         <Toolbar sx={{width:"90%", mx:"auto"}}>
           <IconButton
             size="large"
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 1 }}
+            sx={{ mr: 1}}
           >
-          {/* <img src={imageIcon} style={{width:"60px"}}/> */}
+
+          <img src={imageIcon} style={{width:"60px"}}/>
           </IconButton>
           <Typography variant="p" component="div" id='menu1' sx={{flexGrow:1}}>
             Home
@@ -35,6 +35,8 @@ export default function NavBar() {
             How it Works?
           </Typography>
           <Link to={"/contact"}><button  className='btnContactUs' >Contact us</button></Link>
+          <Link to={"/trackProject"}><button  className='btnContactUs' >Track Your Project</button></Link>
+          
         </Toolbar>
       </AppBar>
     </Box>

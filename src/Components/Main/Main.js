@@ -15,7 +15,7 @@ const Main = () => {
                 <Page2/>
                 <Page3/>
                 <Page4/>
-                <Page5/>
+               
             </Paper>
         </div>
     );
