@@ -6,7 +6,7 @@ import Page3 from '../../pages/page3/Page3';
 import Page4 from '../../pages/page4/Page4';
 import './Main.css'
 import Page5 from '../../pages/page5/Page5';
-import Page4v1 from '../../pages/page4/Page4v1';
+
 const Main = () => {
     return (
         <div className='Main'>
