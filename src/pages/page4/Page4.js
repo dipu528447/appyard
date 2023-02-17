@@ -26,16 +26,18 @@ const Page4 = () => {
                 
                 <motion.div
                     initial={{opacity:0}}
-                    whileInView={{opacity:1}}
+                    whileInView={{opacity:1,zIndex:0}}
                     transition={{delay:1, duration:0.3}}
                     viewport={{ once: true }}
+                    style={{position:"relative",zIndex:1}}
                 >
                     <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>HOW <span style={{color:"#8AB6CB"}}>APPYARD</span> WORKS</h1>
                 </motion.div>
 
                 <div className="example" style={{
                     overflowY:"scroll",
-                    height:"100vh"
+                    height:"100vh",
+                   
                 }}>
                     <motion.div
                         initial={{opacity:0}}

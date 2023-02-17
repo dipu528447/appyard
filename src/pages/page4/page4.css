@@ -10,6 +10,10 @@
     font-family: Inter;
     margin-bottom: 20px;
 }
+.example{
+    width: 1482px;
+   
+}
 .example::-webkit-scrollbar {
     display: none;
 }
@@ -19,3 +23,9 @@
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
+.example:active{
+    scroll-behavior: smooth;
+    position: relative;
+    z-index: 1;
+}
+
