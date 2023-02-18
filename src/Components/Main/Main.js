@@ -13,10 +13,7 @@ const Main = () => {
     return (
         <div className='Main'>
             <Paper style={{height:"100%", display:"flex", flexDirection:"column"}} >
-                {/* <Page1/> 
-                <Page2/>
-                <Page3/>
-                <Page4/> */}
+                
                 <section>
                     <Page1/>
                 </section>
@@ -29,8 +26,7 @@ const Main = () => {
                 <section>
                     <Page4/>
                 </section>
-               
-                            
+             
             </Paper>
         </div>
     );

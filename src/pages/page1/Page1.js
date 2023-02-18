@@ -17,9 +17,12 @@ import './Page1.css'
 import Page2 from '../page2/Page2';
 import Page3 from '../page3/Page3';
 const Page1 = () => {
+ useEffect(() => {
+    window.scrollTo({top: 0, left: 0})
+  }, [])
 
     return (
-        <div className='main' style={{height:"100vh", marginTop:"-30px" }} id="page1" >
+        <div className='main' style={{height:"100vh" }} id="page1" >
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
@@ -32,10 +35,10 @@ const Page1 = () => {
                 initial={{opacity:1}}
                 animate={{
                     width:"200px",
-                    y:-60,
+                    y:10,
                     x:28,
                     position:"fixed",
-                    marginTop:"0px"
+                  
                 }}
                 transition={{ delay:1.5,duration:.3 }}
                 >
@@ -49,8 +52,9 @@ const Page1 = () => {
                     
                 }}
                 transition={{ delay:1,duration:.5 }}
-                style={{marginTop:"100px"}}
+               
                 >
+                    <br/>
                 <LinearDeterminate />
             </motion.div>
             

@@ -20,9 +20,9 @@ const darkTheme = createTheme({
 });
 
 function App() {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo({top: 0, left: 0})
+  // }, [])
 
   return (
     <ThemeProvider theme={darkTheme}>
