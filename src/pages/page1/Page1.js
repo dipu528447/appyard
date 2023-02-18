@@ -19,7 +19,7 @@ import Page3 from '../page3/Page3';
 const Page1 = () => {
 
     return (
-        <div className='main' style={{height:"100vh"}}>
+        <div className='main' style={{height:"100vh", marginTop:"-30px" }} id="page1" >
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
@@ -29,10 +29,10 @@ const Page1 = () => {
                 <NavBar ></NavBar>
             </motion.div>
             <motion.div
-                initial={{opacity:1,marginTop:"50px"}}
+                initial={{opacity:1}}
                 animate={{
                     width:"200px",
-                    y:10,
+                    y:-60,
                     x:28,
                     position:"fixed",
                     marginTop:"0px"

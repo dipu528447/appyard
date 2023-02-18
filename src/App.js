@@ -6,6 +6,7 @@ import { createTheme, rgbToHex, ThemeProvider } from '@mui/material/styles';
 import { router } from './Router/Route';
 import { RouterProvider } from 'react-router-dom';
 import Main from './Components/Main/Main';
+import { useEffect } from 'react';
 
 const darkTheme = createTheme({
   palette: {
@@ -17,7 +18,12 @@ const darkTheme = createTheme({
 
   },
 });
+
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline/>

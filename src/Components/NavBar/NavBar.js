@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="fixed" style={{ "background-image": "linear-gradient(180deg,#000000,#252621)" }}>
+      <AppBar position="fixed" style={{ "backgroundImage": "linear-gradient(180deg,#000000,#252621)" }}>
         <Toolbar sx={{width:"90%", mx:"auto"}}>
           <IconButton
             size="large"

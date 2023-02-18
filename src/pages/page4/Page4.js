@@ -12,7 +12,7 @@ import Page4_3 from '../page4.3/Page4_3';
 
 const Page4 = () => {
     return (
-        <div id="howItWorks" className="page2Main" style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+        <div id="howItWorks" className="page2Main" style={{height:"130vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
 
             {/* first task start */}
             <motion.div
