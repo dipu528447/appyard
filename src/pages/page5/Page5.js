@@ -3,9 +3,17 @@ import { motion } from "framer-motion"
 import { TextField } from '@mui/material';
 import image6 from '../../assets/project.gif'
 import './page5.css'
+import NavBar from '../../Components/NavBar/NavBar';
 const Page5 = () => {
     return (
         <div className='page2Main' style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+            <motion.div
+                initial={{opacity:0}}
+                animate={{opacity:1}}
+                transition={{delay:.3, duration:.3}}
+                >
+                <NavBar></NavBar>
+            </motion.div>
             <motion.div
                 initial={{opacity:0}}
                 whileInView={{

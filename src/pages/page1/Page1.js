@@ -24,6 +24,7 @@ const Page1 = () => {
             initial={{opacity:0}}
             animate={{opacity:1}}
             transition={{delay:2, duration:.3}}
+            
                 >
                 <NavBar ></NavBar>
             </motion.div>

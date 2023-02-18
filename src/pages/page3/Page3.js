@@ -6,12 +6,13 @@ import CostEffective from '../../assets/CostEffective.png'
 import { Grid } from '@mui/material';
 const Page3 = () => {
     return (
-        <div className="page2Main" style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+        <div id="whyChooseUs" className="page2Main" style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
             <motion.div
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
                 transition={{delay:.1, duration:.3}}
                 viewport={{ once: true }}
+                
             >
                 <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>WHY CHOOSE <span style={{color:"#8AB6CB"}}>APPYARD</span></h1>
             </motion.div>

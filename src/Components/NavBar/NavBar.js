@@ -22,16 +22,19 @@ export default function NavBar() {
 
           <img src={imageIcon} style={{width:"60px"}}/>
           </IconButton>
-          <Typography variant="p" component="div" id='menu1' sx={{flexGrow:1}}>
+          <Link to={'/'} style={{textDecoration:"none"}}><Typography variant="p"
+            noWrap
+            component="a"
+             id='menu1' sx={{flexGrow:1}}>
             Home
-          </Typography>
-          <Typography variant="p" component="div"  sx={{flexGrow:1}}>
+          </Typography></Link>
+          <Typography variant="p" component="a"  sx={{flexGrow:1,textDecoration:"none",color:"white",marginLeft:"25px"}} href="#TrustedBy" >
             Top Client
           </Typography>
-          <Typography variant="p" component="div"  sx={{flexGrow:1}}>
+          <Typography variant="p" component="a"  sx={{flexGrow:1,textDecoration:"none",color:"white"}} href="#whyChooseUs">
             Why Choose us?
           </Typography>
-          <Typography variant="p" component="div" sx={{flexGrow:1}}>
+          <Typography variant="p" component="a" sx={{flexGrow:1,textDecoration:"none",color:"white"}} href="#howItWorks">
             How it Works?
           </Typography>
           <Link to={"/contact"}><button  className='btnContactUs' >Contact us</button></Link>

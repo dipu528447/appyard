@@ -6,7 +6,7 @@ import trustedByImage from '../../assets/trustedBy.png'
 const Page2 = () => {
     
     return (
-        <div className='page2Main' style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+        <div id="TrustedBy" className='page2Main' style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
             {/* <motion.div
                 initial={{opacity:1}}
                 whileInView={{
@@ -25,6 +25,7 @@ const Page2 = () => {
                 whileInView={{opacity:1}}
                 transition={{delay:.2, duration:.3}}
                 viewport={{ once: true }}
+                
             >
                 <h1>TRUSTED BY</h1>
             </motion.div>
