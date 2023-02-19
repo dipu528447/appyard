@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import imageIcon from '../../assets/Group 63.png'
 import LinearDeterminate from '../../Components/ProgressBar/ProgressBar';
 import { easeOut, motion } from "framer-motion"
-import NavBar from '../../Components/NavBar/NavBar';
 import { Button, Typography } from '@mui/material';
 import { Box, display } from '@mui/system';
 import rocketBackPart from '../../assets/Vector-5.png'
@@ -16,6 +15,7 @@ import bg from '../../assets/bg.png'
 import './Page1.css'
 import Page2 from '../page2/Page2';
 import Page3 from '../page3/Page3';
+import NavBar from '../../Components/NavBar/NavBar';
 const Page1 = () => {
  useEffect(() => {
     window.scrollTo({top: 0, left: 0})
