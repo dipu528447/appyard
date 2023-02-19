@@ -56,7 +56,7 @@ const Page4 = () => {
                         <img src={image1}/>
                         <br/>
                         <br/>
-                        <img src={image3} width="50px"/>
+                        <img src={image3} width="50px" className='arrow'/>
                     </motion.div>
                     <Page4_2/>
                     <Page4_3/>

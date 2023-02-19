@@ -41,6 +41,7 @@ const Page1 = () => {
                   
                 }}
                 transition={{ delay:1.5,duration:.3 }}
+                style={{marginBottom:"100px"}}
                 >
                 <img src={imageIcon} style={{width:"30%"}} />
                 
@@ -52,7 +53,7 @@ const Page1 = () => {
                     
                 }}
                 transition={{ delay:1,duration:.5 }}
-               
+                
                 >
                     <br/>
                 <LinearDeterminate />

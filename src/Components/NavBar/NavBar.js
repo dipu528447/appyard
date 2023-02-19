@@ -48,7 +48,7 @@ export default function NavBar() {
               onMouseEnter={handleClick}
               component="a"
               variant="p"
-              sx={{marginLeft:"30px"}}
+              sx={{marginLeft:"40px"}}
             >
               Services
             </Typography>

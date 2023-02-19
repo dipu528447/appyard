@@ -7,18 +7,32 @@ import firebase from '../../assets/FIREBASE.png'
 import aws from '../../assets/AWS.png'
 import image4 from '../../assets/Group 112.png'
 import point from '../../assets/Group 113.png'
+import { motion } from "framer-motion"
+import NavBar from '../../Components/NavBar/NavBar';
+import './MobileApplicationService.css'
+
 const MobileApplicationService = () => {
     return (
        
-        <div className='page2Main' style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
-            <div style={{marginBottom:"50px"}} >
-                <h1 style={{fontFamily:'Inter',fontWeight:"700", width:"701px"}}>MOBILE DEVELOPMENT SERVICES <span style={{color:"#8AB6CB"}}>TO BOOST YOUR COMPANY'S EXPENSION</span></h1>
+        <div className='page2Main' style={{height:"120vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+            <motion.div
+                initial={{opacity:0}}
+                animate={{opacity:1}}
+                transition={{delay:.3, duration:.3}}
+                >
+                <NavBar></NavBar>
+            </motion.div>
+            <div >
+                <h1 style={{color:"#000000",fontWeight:"700", width:"701px"}}>MOBILE DEVELOPMENT SERVICES <span style={{color:"#ffffff"}}>TO BOOST YOUR COMPANY'S EXPENSION</span></h1>
                 <div style={{display:"flex", justifyContent:"space-around"}}>
-                    <img src={java} width="60px" />
-                    <img src={java} width="60px" />
-                    <img src={java} width="60px" />
-                    <img src={java} width="60px" />
-                    <img src={java} width="60px" />
+                    <div className='rectangle'><img src={java} className="images"/></div>
+                    <div className='rectangle'><img src={flutter} className="images" /></div>
+                    <div className='rectangle'><img src={react} className="images" /></div>
+                    <div className='rectangle'><img src={aws} className="images" /></div>
+                    <div className='rectangle'><img src={firebase} className="images"/></div>
+                </div>
+                <div>
+                    <div className='line'></div>
                 </div>
             </div>
             <Grid container columnSpacing={8} style={{width:"1200px"}}>

@@ -21,5 +21,20 @@
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
+.arrow{
+    transform: translatey(0px);
+	animation: float-up-down 6s ease-in-out infinite;
+}
+@keyframes float-up-down {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
 
 

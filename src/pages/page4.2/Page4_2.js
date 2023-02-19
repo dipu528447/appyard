@@ -51,7 +51,7 @@ const Page4_2 = () => {
                                 </div>
                                 <div style={{textAlign:"left"}}>
                                     <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>MASTER PLAN</h1>
-                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>We share<span style={{color:"#000000"}}> what, when, how</span> before starting the project along with a <span style={{color:"#8AB6CB"}}>customer ID</span> which helps you <span style={{color:"#8AB6CB"}}>track everything 24/7</span> business to next level</h5>
+                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>We share<span style={{color:"#000000"}}> what, when, how</span> before starting the project along with a <span style={{color:"#000000"}}>customer ID</span> which helps you <span style={{color:"#000000"}}>track everything 24/7</span> business to next level</h5>
                                 </div>
                                 
                             </div>  
