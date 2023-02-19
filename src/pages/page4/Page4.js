@@ -32,12 +32,12 @@ const Page4 = () => {
                 
                 <motion.div
                     initial={{opacity:0}}
-                    whileInView={{opacity:1,zIndex:0}}
+                    whileInView={{opacity:1}}
                     transition={{delay:1, duration:0.3}}
                     viewport={{ once: true }}
-                    style={{position:"relative",zIndex:1}}
+                    style={{position:"fixed",top:100,left:600}}
                 >
-                    <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>HOW <span style={{color:"#000000"}}>APPYARD</span> WORKS</h1>
+                    <h1 style={{fontWeight:"700", color:"white"}}>HOW <span style={{color:"#000000"}}>APPYARD</span> WORKS</h1>
                 </motion.div>
 
                 <div className="example" style={{height:"50vh"}}>
