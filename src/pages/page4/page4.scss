@@ -1,0 +1,11 @@
+
+.example {
+    scroll-snap-type: mandatory;
+    // scroll-snap-points-y: repeat(1vh);
+    scroll-snap-type: y mandatory;
+  }
+.sec {  
+    scroll-snap-align: start;
+    position: relative;
+  }
+ 

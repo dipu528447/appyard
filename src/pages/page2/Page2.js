@@ -27,7 +27,7 @@ const Page2 = () => {
                 viewport={{ once: true }}
                 
             >
-                <h1>TRUSTED BY</h1>
+                <h1 style={{color:"#000000"}}>TRUSTED BY</h1>
             </motion.div>
             <div>
                 <motion.div

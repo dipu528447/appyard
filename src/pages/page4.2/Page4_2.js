@@ -4,8 +4,9 @@ import image4 from '../../assets/undraw.gif'
 import { motion } from "framer-motion"
 const Page4_2 = () => {
     return (
-        <div className='page2Main' style={{height:"100vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+        <div className='page2Main sec' style={{height:"120vh", display:"flex", alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
             {/* second task start */}
+            
             <motion.div
                 initial={{opacity:0}}
                 whileInView={{
@@ -30,7 +31,7 @@ const Page4_2 = () => {
                                 </div>
                                 <div style={{textAlign:"left"}}>
                                     <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>INITIATIVE</h1>
-                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>Decide to take your  <span style={{color:"#8AB6CB"}}>business to next level</span></h5>
+                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>Decide to take your  <span style={{color:"#000000"}}>business to next level</span></h5>
                                 </div>
                                 
                             </div>  
@@ -40,7 +41,7 @@ const Page4_2 = () => {
                                 </div>
                                 <div style={{textAlign:"left"}}>
                                     <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>GET A QUOTE</h1>
-                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>Contact us and get a quote for your app at the most <span style={{color:"#8AB6CB"}}>affordable rates in India</span></h5>
+                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>Contact us and get a quote for your app at the most <span style={{color:"#000000"}}>affordable rates in India</span></h5>
                                 </div>
                                 
                             </div>  
@@ -50,7 +51,7 @@ const Page4_2 = () => {
                                 </div>
                                 <div style={{textAlign:"left"}}>
                                     <h1 style={{fontFamily:'Inter',fontWeight:"700"}}>MASTER PLAN</h1>
-                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>We share<span style={{color:"#8AB6CB"}}> what, when, how</span> before starting the project along with a <span style={{color:"#8AB6CB"}}>customer ID</span> which helps you <span style={{color:"#8AB6CB"}}>track everything 24/7</span> business to next level</h5>
+                                    <h5 style={{fontFamily:'Inter',fontWeight:"700"}}>We share<span style={{color:"#000000"}}> what, when, how</span> before starting the project along with a <span style={{color:"#8AB6CB"}}>customer ID</span> which helps you <span style={{color:"#8AB6CB"}}>track everything 24/7</span> business to next level</h5>
                                 </div>
                                 
                             </div>  

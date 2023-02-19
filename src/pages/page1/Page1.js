@@ -65,13 +65,13 @@ const Page1 = () => {
             >
                 <Box sx={{ display: 'flex', width:"85%", mx:"auto",justifyContent: 'space-between' }}>
                     <div>
-                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"48px"}}>WE LAUNCH YOUR <span style={{color:"#8AB6CB"}}>APPS</span> </Typography>
+                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"48px"}}>WE LAUNCH YOUR <span style={{color:"#000000"}}>APPS</span> </Typography>
                         <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"48px"}}>FOR YOUR FASTLY AND </Typography>
                         <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"48px"}}>CHEAPLY </Typography>
                         <br/>
-                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"22px"}}><span style={{color:"#8AB6CB"}}>100+</span> company's entrusted us to deliver </Typography>
+                        <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"22px"}}><span style={{color:"#000000"}}>100+</span> company's entrusted us to deliver </Typography>
                         <Typography variant="h1" component="div" style={{textAlign:"left",fontFamily:'arial',fontWeight:"700",fontSize:"22px"}}>their dream product </Typography>
-                        <button className='btn1' style={{ backgroundColor:"#406B80"}}>Get Started</button>
+                        <button className='btn1' style={{ backgroundColor:"#000000"}}>Get Started</button>
                     </div>
                     <div style={{width:"50%"}}>
                         

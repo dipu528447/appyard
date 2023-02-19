@@ -21,7 +21,7 @@ export default function NavBar() {
   return (
     
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="fixed" style={{ "backgroundImage": "linear-gradient(180deg,#000000,#252621)" }}>
+      <AppBar position="fixed" style={{ "backgroundImage": "linear-gradient(90deg,#637EE1,#7BB7E6)",boxShadow:"none" }}>
         <Toolbar sx={{width:"90%", mx:"auto"}}>
           <IconButton
             size="large"
@@ -45,12 +45,12 @@ export default function NavBar() {
               aria-controls={open ? 'basic-menu' : undefined}
               aria-haspopup="true"
               aria-expanded={open ? 'true' : undefined}
-              onClick={handleClick}
+              onMouseEnter={handleClick}
               component="a"
               variant="p"
               sx={{marginLeft:"30px"}}
             >
-              Dashboard
+              Services
             </Typography>
             <Menu
               id="basic-menu"
