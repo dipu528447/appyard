@@ -22,7 +22,7 @@ const Page1 = () => {
   }, [])
 
     return (
-        <div className='main' style={{height:"100vh" }} id="page1" >
+        <div className='main' style={{height:"100vh"}} id="page1" >
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
