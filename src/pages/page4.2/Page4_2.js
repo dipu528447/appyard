@@ -8,6 +8,15 @@ const Page4_2 = () => {
             {/* second task start */}
             
             <motion.div
+                    initial={{opacity:0}}
+                    animate={{opacity:1}}
+                    transition={{delay:1, duration:0.3}}
+                    viewport={{ once: true }}
+                    style={{position:"relative"}}   
+                >
+                    <h1 style={{fontWeight:"700",marginTop:"40px"}}>HOW <span style={{color:"#000000"}}>APPYARD</span> WORKS</h1>
+                </motion.div>
+            <motion.div
                 initial={{opacity:0}}
                 whileInView={{
                     opacity:1,

@@ -17,15 +17,13 @@ const Page4 = () => {
         window.scrollTo({top: 0, left: 0})
         window.addEventListener("scroll", (event) => {
             let scroll = window.scrollY;
-            if(scroll>=1534){
+            if(scroll>1534){
                 
                 i.style.position='fixed'
                 i.style.display="block"
-                i.style.color="white"
-                
+                i.style.border="2px solid black"
             }
             else{
-               
                 i.style.position='relative'
                 i.style.display="none"
             }
@@ -49,11 +47,10 @@ const Page4 = () => {
                 
                 <motion.div
                     initial={{opacity:0}}
-                    whileInView={{opacity:1}}
+                    animate={{opacity:1}}
                     transition={{delay:1, duration:0.3}}
                     viewport={{ once: true }}
-                    style={{position:"relative",top:60, left:600, color:"white"}}
-                    id="howAppyardWorks"
+                    style={{position:"relative"}}   
                 >
                     <h1 style={{fontWeight:"700",marginTop:"40px"}}>HOW <span style={{color:"#000000"}}>APPYARD</span> WORKS</h1>
                 </motion.div>

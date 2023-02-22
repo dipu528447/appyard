@@ -10,7 +10,7 @@
 
 @keyframes line {
     from { width: 0%; }
-    to { width:100%; }
+    to { width:70%; }
 }
 .rectangle{
     box-sizing: border-box;
@@ -27,3 +27,4 @@
 .images{
     padding:5px
 }
+
